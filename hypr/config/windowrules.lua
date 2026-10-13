@@ -161,3 +161,11 @@ hl.window_rule({
 	float = false,
 	size = { 700, 700 },
 })
+
+hl.window_rule({
+	match = {
+		class = "^(firefox|google-chrome|brave-browser|chromium)$",
+		title = ".*YouTube.*",
+	},
+	opacity = "1.0 override 1.0 override",
+})
